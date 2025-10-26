@@ -3,10 +3,10 @@ import heroBg from "../assets/images/background.png";
 function CallOperation() {
   return (
     <div className="h-screen" style={{ backgroundImage: `url(${heroBg})` }}>
-      <div className="flex flex-col items-center justify-center px-4 py-20 sm:py-24">
+      <div className="flex flex-col items-center justify-center px-4 py-20 lg:py-44 sm:py-24">
         <div className="max-w-4xl text-center">
           <h1
-            className="font-extrabold sm:text-[75.6px] text-[35px] sm:leading-[90.72px] leading-[50px] tracking-[0px] text-center"
+            className="font-extrabold lg:text-[75.6px] sm:text-[60px] text-[35px] sm:leading-[90.72px] leading-[50px] tracking-[0px] text-center"
             style={{
               verticalAlign: "middle",
             }}
